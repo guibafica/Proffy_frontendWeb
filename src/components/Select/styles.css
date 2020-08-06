@@ -1,16 +1,16 @@
-.input-block {
+.select-block {
   position: relative;
 }
 
-.input-block + .input-block {
+.select-block + .select-block {
   margin-top: 1.4rem;
 }
 
-.input-block label {
+.select-block label {
   font-size: 1.4 rem;
 }
 
-.input-block input {
+.select-block select {
   width: 100%;
   height: 5.6rem;
   margin-top: 0.8rem;
@@ -23,7 +23,7 @@
   margin-bottom: 3.2rem;
 }
 
-.input-block:focus-within::after {
+.select-block:focus-within::after {
   width: calc(100% - 3.2rem);
   height: 2px;
   content: '';
